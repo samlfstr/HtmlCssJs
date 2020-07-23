@@ -1,9 +1,31 @@
-.content{
-     text-align: center;
+.content {
+    text-align: center;
 }
-.content ol{
-     list-style: none;
+
+.content ol {
+    list-style: none;
 }
-.images{
-     text-align: center;
+
+.images {
+    text-align: center;
+}
+.user-table{
+    text-align: center;
+}
+
+.user-table table{
+    margin-left: auto;
+    margin-right: auto;
+    text-align: center;
+    border: 1px solid grey;
+}
+
+.user-table th {
+    background-color: rgba(216, 216, 216, 0.438);
+    border: 1px solid grey;
+}
+
+.user-table td {
+    background-color: lightcyan;
+    border: 1px solid grey;
 }
