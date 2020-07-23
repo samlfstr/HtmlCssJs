@@ -19,13 +19,17 @@
     text-align: left;
     border: 1px solid grey;
 }
-
-.user-table th {
-    background-color: rgba(216, 216, 216, 0.438);
+/*Overwriting with colgroup is only possible with transparency*/
+.user-table td, th {
+    background-color: rgba(216, 216, 216,0.5);
     border: 1px solid grey;
 }
-
-.user-table td {
-    background-color: lightcyan;
+/*If we want later on we can overwrite it*/
+.user-table th {
     border: 1px solid grey;
+    background-color: lightcyan;
+}
+
+.user-table .properties{
+    background-color: rgb(24, 124, 45);
 }
