@@ -23,13 +23,20 @@
 .user-table td, th {
     background-color: rgba(216, 216, 216,0.5);
     border: 1px solid grey;
+    text-align: center;
 }
 /*If we want later on we can overwrite it*/
 .user-table th {
     border: 1px solid grey;
-    background-color: lightcyan;
+    background-color: rgba(216, 216, 216,0.5);
 }
 
 .user-table .properties{
     background-color: rgb(24, 124, 45);
+}
+.user-table .addition {
+    background-color: blueviolet;
+}
+.user-table #cap, #cap2{
+    background-color: rgba(165, 165, 165, 0.726);
 }
