@@ -1,0 +1,15 @@
+*{
+   background-color: lawngreen;
+}
+.user-section{
+   background-color: rgb(245, 245, 245);
+}
+.user-section p {
+   background-color: rgb(216, 198, 0);
+}
+.user-section #i_p1{
+   background-color:  black;
+}
+.user-section #i_title{
+   background-color: red;
+}
