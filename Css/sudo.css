@@ -1,0 +1,12 @@
+a{
+   color: red;
+}
+a:visited{
+   color: grey;
+}
+a:hover{
+   color: khaki;
+}
+a:focus{
+   outline: 3px solid grey;
+}
