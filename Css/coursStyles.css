@@ -10,9 +10,7 @@ img{
 a{
    color: hotpink;
 }
-a:hover{
-   text-decoration: none;
-}
+
 /* Profile
 -------------------------*/
 header{
@@ -25,18 +23,21 @@ header{
    background-color: #f7fff7;
 }
 .projects a{
+   color: rgb(206, 197, 197);
+}
+.projects .btn{
+   color: hotpink;
    background-color: lavenderblush;
    text-decoration: none;
    padding: 7px;
    border-radius: 5px;
 }
-.projects a:hover{
+.projects .btn:hover{
    background-color: lavender;
 }
-.projects a:active{
+.projects .btn:active{
    background-color: rgba(240, 240, 255,50%);
 }
-
 
 /* Work experience
 ------------------------*/
