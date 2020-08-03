@@ -1,8 +1,7 @@
-
 /* Global style
 ------------------------*/
 body{
-   color: #343434;
+   color: #dfdfdf;
 }
 img{
    width: 300px;
@@ -10,6 +9,12 @@ img{
 a{
    color: hotpink;
 }
+.content-wrap{
+   max-width: 900px;
+   width: auto;
+   margin: 0 auto;
+}
+
 
 /* Profile
 -------------------------*/

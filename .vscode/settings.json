@@ -1,5 +1,12 @@
 {
    "editor.cursorStyle": "line-thin",
    "editor.wordWrap": "on",
-   "editor.folding": false
+   "editor.fontSize": 13,
+   "editor.suggest.statusBar.visible": true,
+   "zenMode.centerLayout": false,
+   "editor.foldingHighlight": false,
+  "editor.folding": false,
+   "editor.tabSize": 2,
+  "workbench.tree.indent": 1,
+  "editor.autoIndent": "keep"
 }

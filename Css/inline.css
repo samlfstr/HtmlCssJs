@@ -1,0 +1,21 @@
+.container{
+   display: flex;
+   margin-top: 5px;
+   width: 50%;
+}
+.container p {
+   text-align: left;
+   padding: 15px;
+}
+.container .separator{
+   border : 1px solid grey;
+   padding: 5px;
+   margin: 5px;
+   background-color : grey;
+}
+.container .separator:hover{
+   background-color : rgb(158, 158, 158);
+}
+.container .separator:active{
+   background-color : rgb(167, 167, 167);
+}
