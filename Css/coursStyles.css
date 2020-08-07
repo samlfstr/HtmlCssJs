@@ -23,11 +23,15 @@ a{
 header{
    background-color: #2f3661;
 }
+header p{
+   color: white;
+}
 
 /* Projects
 ------------------------*/
 .projects{
    background-color: #f7fff7;
+   color: black;
 }
 .projects a{
    color: rgb(206, 197, 197);
@@ -42,8 +46,11 @@ header{
 .projects .btn:hover{
    background-color: lavender;
 }
-.projects #id{
-   
+#btn{
+   text-decoration: none;
+   background-color: hotpink;
+   color: black;
+   border-radius: 10px;
 }
 
 .projects .btn:active{
@@ -54,6 +61,7 @@ header{
 ------------------------*/
 .work-experience{
    background-color: #a1c6d7;
+   color: black;
 }
 
 /* Education
@@ -62,5 +70,11 @@ header{
 /* Contact
 ------------------------*/
 footer{
+
    background-color: #343434;
+}
+
+footer ul {
+   color: white;
+   list-style: none;
 }
