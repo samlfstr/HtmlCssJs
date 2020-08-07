@@ -2,6 +2,8 @@
 ------------------------*/
 body{
    color: #dfdfdf;
+   margin: 0px;
+   padding: 0px;
 }
 img{
    width: 300px;
@@ -13,9 +15,8 @@ a{
    max-width: 900px;
    width: auto;
    margin: 0 auto;
+   padding: 60px 0;
 }
-
-
 /* Profile
 -------------------------*/
 header{
@@ -40,6 +41,9 @@ header{
 .projects .btn:hover{
    background-color: lavender;
 }
+.projects .btn:active{
+}
+
 .projects .btn:active{
    background-color: rgba(240, 240, 255,50%);
 }
