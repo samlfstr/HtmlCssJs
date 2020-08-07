@@ -1,0 +1,46 @@
+
+/* GENERAL
+**********************/
+
+header{
+  background-color:rgb(133, 180, 133);
+  padding: 30px;
+}
+
+nav{
+  background-color:rgb(153, 84, 79);
+  padding: 30px;
+  float: left;
+  width: 15%;
+  height: 40%;
+}
+
+section{
+  background-color:rgb(60, 105, 172);
+  padding: 30px;
+  color: black;
+  width: 50%;
+  height: 40%;
+  float: left;
+}
+aside{
+  background-color:rgb(176, 107, 207);
+  padding: 30px;
+  color: black;
+  overflow: hidden;
+  height: 40%;
+  clear: right;
+}
+
+footer{
+  background-color:rgb(74, 212, 201);
+  padding: 30px;
+  color: black;
+}
+
+p{
+  text-align: center;
+}
+
+/* OTHER STYLE
+**********************/
