@@ -1,7 +1,7 @@
 /* Global style
 ------------------------*/
 body{
-   color: #dfdfdf;
+   color: #f3a8a8;
    margin: 0px;
    padding: 0px;
 }
@@ -14,6 +14,7 @@ a{
 .content-wrap{
    max-width: 900px;
    width: auto;
+   /*margin: top bottom*/
    margin: 0 auto;
    padding: 60px 0;
 }
@@ -41,7 +42,8 @@ header{
 .projects .btn:hover{
    background-color: lavender;
 }
-.projects .btn:active{
+.projects #id{
+   
 }
 
 .projects .btn:active{
