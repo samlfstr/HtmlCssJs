@@ -1,0 +1,30 @@
+nav ul{
+  list-style: none;
+  border: 5px solid black;
+  /* First option : float: left; */
+  /* Second option : overflow: auto; */
+
+  content: "";
+  display: table;
+  clear: both;
+  
+}
+nav ul li{
+  padding: 15px;
+  background-color: rgb(131, 128, 128);
+  width: 70px;
+  margin: 3px;
+  float: left;
+} 
+
+.container{
+  background-color: blanchedalmond;
+  padding: 15px;
+}
+
+.sub1, .sub2{
+  border: 1px solid black;
+  padding: 3px;
+  margin: 5px;
+  float: left;
+}
