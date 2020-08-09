@@ -2,11 +2,15 @@ nav ul{
   list-style: none;
   border: 5px solid black;
   /* First option : float: left; */
-  /* Second option : overflow: auto; */
 
+  /* Second option : overflow: auto; */
+  overflow: auto;
+
+  /* 
   content: "";
   display: table;
-  clear: both;
+  clear: both; 
+  */
   
 }
 nav ul li{
@@ -20,6 +24,7 @@ nav ul li{
 .container{
   background-color: blanchedalmond;
   padding: 15px;
+  overflow: auto;
 }
 
 .sub1, .sub2{

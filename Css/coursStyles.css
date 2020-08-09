@@ -1,5 +1,13 @@
 /* Global style
 ------------------------*/
+html{
+   box-sizing : border-box;
+}
+*, *:before, *:after{
+   box-sizing: inherit;
+}
+   
+
 body{
    color: #f3a8a8;
    margin: 0px;
@@ -33,6 +41,9 @@ header p{
    background-color: #f7fff7;
    color: black;
 }
+.projects h3{
+   margin-top: 0;
+} 
 .projects a{
    color: rgb(206, 197, 197);
 }
@@ -56,6 +67,21 @@ header p{
 .projects .btn:active{
    background-color: rgba(240, 240, 255,50%);
 }
+
+.project-all{ 
+   overflow: auto;
+   border-bottom: 1px double black;
+
+   /*top and bottom 25px left and right 0px*/
+   padding: 25px 0;
+}
+
+.project-all img{
+   float: left;
+   margin-right: 30px;
+}
+
+
 
 /* Work experience
 ------------------------*/
