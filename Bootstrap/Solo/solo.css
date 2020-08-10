@@ -1,0 +1,14 @@
+.container{
+  text-align: center;
+  margin-top: 15px;
+}
+.container #left{
+  background-color: blanchedalmond;
+  padding: 15px;
+}
+.container #right{
+  background-color: burlywood;
+  padding: 15px;
+}
+
+
