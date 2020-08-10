@@ -1,0 +1,46 @@
+.wrapper {
+  width: 500px;
+  margin: 0 auto;
+  padding: 20px;
+  border: 1px solid black;
+  position: relative;
+}
+.parent {
+  border: 1px solid red;
+  /* position: relative; */
+}
+.box {
+  width: 60px;
+  height: 50px; 
+  padding: 10px;
+}
+.relative { 
+  background: lightblue;
+/*   position: relative; */
+/*   top: 10px; */
+/*   right: 30px; */
+}
+
+/* At the beginnig the absolute box is relative to the most upper parent on the hierarchy which is screen res. But if I open one by one each parent with position relative keyword it'll be relativly to it's parent take the position of 15per right and 5per bottom. And it's position will be absolute to it's parent or container */
+.absolute {
+  background: pink;
+  position: absolute;
+  right: 0%;
+  bottom: 0%;
+}
+.fixed {
+  background: lightgreen;
+  position: fixed;
+  top: 0;
+  right: 0;
+}
+.sticky {
+  background: lightgray;
+  position: sticky;
+  top: 10px;
+}
+
+
+
+
+
