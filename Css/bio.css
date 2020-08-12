@@ -1,0 +1,50 @@
+/* General Selectors
+*************************/
+*, *:before, *:after{
+  box-sizing: inherit;
+}
+  
+/* HEAD section
+*************************/
+@media(min-width:768px){
+  .h-list{
+    display: flex;
+    justify-content: flex-end;
+    margin: 5px;
+  }
+}
+.h-container{
+  background-color: rgb(189, 128, 128);
+  border-radius: 5px;
+  overflow: auto;
+}
+.h-list li{
+ list-style-type: none;
+ padding: 5px;
+ margin: 0px 5px;
+ border: 1px solid black;
+ border-radius: 10px;
+}
+.h-list li a{
+  text-decoration: none;
+  color: black;
+ }
+.h-list li:hover{
+  background-color: rgb(163, 110, 110);
+  cursor: pointer;
+ }
+ .h-list li:active{
+  background-color: rgb(189, 128, 128);
+ }
+/* BODY section
+*************************/
+.content-wrap{
+  max-width: 900px;
+  width: auto;
+  /*margin: top bottom*/
+  margin-bottom: 100px;
+  padding: 0px 60px;
+}
+
+/* FOOTER section
+*************************/
