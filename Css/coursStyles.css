@@ -90,6 +90,14 @@ header p{
    color: black;
 }
 
+.grid-container{
+   display: grid;
+   grid-template-columns: 1fr 2fr;
+   column-gap: 50px;
+   grid-template-rows: repeat(3, auto);
+   row-gap: 20px;
+}
+
 /* Education
 ------------------------*/
 
