@@ -21,7 +21,7 @@ a{
 }
 .content-wrap{
    max-width: 900px;
-   width: auto;
+   width: 85%;
    /*margin: top bottom*/
    margin: 0 auto;
    padding: 60px 0;
@@ -35,12 +35,23 @@ header p{
    color: white;
 }
 
+header h1, header h2{
+   color: burlywood;
+}
+
 /* Projects
 ------------------------*/
 .projects{
    background-color: #f7fff7;
    color: black;
 }
+
+@media screen and (max-width:700px){
+   .projects{
+      text-align: center;
+   }
+}
+
 .projects h3{
    margin-top: 0;
 } 
@@ -76,12 +87,26 @@ header p{
    padding: 25px 0;
 }
 
-.project-all img{
-   float: left;
-   margin-right: 30px;
+.project-all{
+   display: grid;
+   grid-template-columns: repeat(2,auto);
+   column-gap: 30px;
 }
 
 
+/* @MEDIA
+************************/
+@media screen and (max-width:700px ){
+   .project-all{
+      display: block;
+      margin-left: auto;
+      margin-right: auto;
+      text-align: center;
+   }
+   .project-all img {
+      margin-bottom: 30px;
+   }
+}
 
 /* Work experience
 ------------------------*/
@@ -98,17 +123,56 @@ header p{
    row-gap: 20px;
 }
 
+/* @MEDIA
+************************/
+@media screen and (max-width:700px){
+   .grid-container{
+      display: block;
+      margin-bottom: 50px;
+   }
+}
+
+
+
+
+
+
 /* Education
 ------------------------*/
+.education{
+   color: black;
+   background-image: url(../Images/anastasiia-kamil.jpg);
+   background-size: cover;
+   background-position: left;
+}
 
 /* Contact
 ------------------------*/
 footer{
-
    background-color: #343434;
+   text-align: center;
+}
+
+footer h2{
+   color: burlywood;
+   margin-bottom: 35px;
 }
 
 footer ul {
    color: white;
-   list-style: none;
+   list-style: none; 
+}
+
+.contact-container{
+   display: flex;
+   justify-content: space-evenly;
+}
+
+/* @MEDIA
+************************/
+@media screen and (max-width: 700px){
+   .contact-container{
+      justify-content: space-evenly;
+      flex-wrap: wrap;
+   }
 }
