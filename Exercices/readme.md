@@ -20,3 +20,6 @@
 
 # gridSystem.html & bootstrap.min.css
 ![ScreenClip](https://user-images.githubusercontent.com/28195113/90291241-25d73200-de88-11ea-98ca-c5dbbdbb55cd.png)
+
+# reminder.html & reminder.css
+![ScreenClip](https://user-images.githubusercontent.com/28195113/90382899-0d356a80-e088-11ea-974b-082802a4bd30.png)
