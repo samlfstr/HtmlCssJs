@@ -13,12 +13,10 @@ body{
    margin: 0px;
    padding: 0px;
 }
-img{
-   width: 300px;
-}
-a{
-   color: hotpink;
-}
+
+img{ width: 300px;}
+a{ color: hotpink;}
+
 .content-wrap{
    max-width: 900px;
    width: 85%;
@@ -28,36 +26,21 @@ a{
 }
 /* Profile
 -------------------------*/
-header{
-   background-color: #2f3661;
-}
-header p{
-   color: white;
-}
-
-header h1, header h2{
-   color: burlywood;
-}
+header{ background-color: #2f3661; }
+header p{ color: white; }
+header h1, header h2{ color: burlywood; }
 
 /* Projects
 ------------------------*/
-.projects{
-   background-color: #f7fff7;
-   color: black;
-}
+.projects{ background-color: #f7fff7; color: black; }
 
 @media screen and (max-width:700px){
-   .projects{
-      text-align: center;
-   }
+   .projects{ text-align: center; }
 }
 
-.projects h3{
-   margin-top: 0;
-} 
-.projects a{
-   color: rgb(206, 197, 197);
-}
+.projects h3{ margin-top: 0;} 
+.projects a{ color: rgb(206, 197, 197); }
+
 .projects .btn{
    color: hotpink;
    background-color: lavenderblush;
@@ -65,9 +48,8 @@ header h1, header h2{
    padding: 7px;
    border-radius: 5px;
 }
-.projects .btn:hover{
-   background-color: lavender;
-}
+.projects .btn:hover{ background-color: lavender;}
+
 #btn{
    text-decoration: none;
    background-color: hotpink;
