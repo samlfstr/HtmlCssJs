@@ -23,3 +23,6 @@
 
 # reminder.html & reminder.css
 ![ScreenClip](https://user-images.githubusercontent.com/28195113/90382899-0d356a80-e088-11ea-974b-082802a4bd30.png)
+
+# blog.html
+![ScreenClip](https://user-images.githubusercontent.com/28195113/90935096-2ed97d80-e40b-11ea-8d00-5f2ee708e749.png)
