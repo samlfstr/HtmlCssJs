@@ -24,6 +24,9 @@ p, li{
   font-size: .75rem;
 }
 
+/* END OF General Style */
+
+
 /* <!--Header Section--> 
 *****************************/
 
@@ -69,7 +72,7 @@ p, li{
   color: Black;
 }
 
-/* Animations */
+/* CSS Animations */
 
 .nav-cluster p.left {
   position: relative;
@@ -91,7 +94,7 @@ p, li{
 }
 
 /* END OF Animations */
-
+/* END OF Header Section */
 
 /* <!--Articles Section-->
 *****************************/
@@ -125,6 +128,7 @@ p, li{
   border-bottom: 1px solid black;
 }
 
+/* END OF Articles Section */
 
 /* <!--Sidebar Section-->
 *****************************/
@@ -133,5 +137,12 @@ p, li{
   padding-left: 50px;
 }
 
+/* END OF Sidebar Section */
+
+
+
 /* <!--Footer Section-->
 *****************************/
+
+
+/* END OF Footer Section */
