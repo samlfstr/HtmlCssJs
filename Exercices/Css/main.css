@@ -1,0 +1,11 @@
+.container table{
+  margin-left: auto;
+  margin-right: auto;
+  text-align: center;
+
+  border: .1rem solid black; 
+}
+
+tr, th, td{
+  border: .1rem solid black;
+}
