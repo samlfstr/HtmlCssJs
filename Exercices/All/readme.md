@@ -1,6 +1,9 @@
 # @ Media queries
 
 
+![media_queries](https://user-images.githubusercontent.com/28195113/92406218-23db5880-f140-11ea-893a-07d94c2a51c2.gif)
+
+
 When working media queries particularly on the media_queriest.html file I've encountered with a problem of overwriting. The solution was to use `!important` key word.
 
 
