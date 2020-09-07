@@ -1,0 +1,85 @@
+/* Use the border-box model for different calculation of width and flex-basis.
+Declare border-box sizing on the HTML tag */
+html {
+  box-sizing: border-box;
+}
+/* Inherit the border box sizing for everything in the universe and before and after it - all from the HTML tag */
+*, *::before, *::after {
+  box-sizing: inherit;
+}
+/* Flex-container or parent always declares to display flex, and it's likely you want row wrap as your values. Space-between pushes boxes to very beginning and end of the row, dividing remaining space in between */
+
+.row {
+	display: flex;
+	flex-flow: row wrap;
+  justify-content: space-around;
+}
+
+@media print{
+  .row{
+    /* display: block; */
+    flex-direction: column;
+  }
+
+  p a {
+    display: none;
+  }
+}
+
+@media (max-width:850px) and (min-width:700px){
+
+  article {
+    flex-basis: 48% !important;
+    margin-bottom: 1rem;
+  }
+}
+
+@media (max-width:700px){
+  .row{
+    display: flex;
+    flex-direction: column;
+  }
+
+  article {
+    margin-bottom: 1rem;
+  }
+}
+
+
+
+
+
+/* Use flex-basis when working with Flexbox, NOT width, for flexible results! It's the "flex" in Flexbox! */
+article {
+  flex-basis: 24%;
+  padding: 1rem;
+  border: 1px solid #eee;
+  border-radius: 10px;
+  box-shadow: 0 2px 8px 0 rgba(0,0,0,.15);
+}
+
+
+
+/* This CSS is to make things pretty. Nothing needs to be changed here. */
+body {
+  font-family: "Open Sans", sans-serif;
+    color: #463D40;
+}
+a {
+  display: inline-block;
+  background-color: #2C3E57;
+  color: white;
+  padding: 0.5rem;
+  text-decoration: none;
+  border-radius: 10px;
+  font-weight: bold;
+}
+a:hover {
+  background-color: #85C2B6;
+  color: #2C3E57;
+}
+.fas {
+  font-size: 4rem;
+  float: left;
+  padding: 0 1rem 1rem 0;
+}
