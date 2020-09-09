@@ -35,11 +35,9 @@ When working media queries particularly on the media_queriest.html file I've enc
 
 ````
 
-
 # How to fix buttons
 
 ![media_queries](https://user-images.githubusercontent.com/28195113/92494172-0e2c6880-f1fe-11ea-8d2e-e94871ea1ced.gif)
-
 
 `First` each boxes position should be relative.
 
@@ -51,3 +49,24 @@ When working media queries particularly on the media_queriest.html file I've enc
 margin-left: 10%;
 margin-right: 10%;
 ````
+
+# Responsive Footer
+
+![footer](https://user-images.githubusercontent.com/28195113/92654118-0d77fd00-f2f8-11ea-9b68-328f5dc2ac82.gif)
+
+I had an issue with hr showing. The way I fixed it in media queries when the screen is less than x :
+
+````css
+.footer-con hr {
+  display:  inherit !important;
+  width: 15rem;
+}
+````
+
+And in the main code :
+
+```css
+.footer-con hr{
+  display: none;
+}
+```
