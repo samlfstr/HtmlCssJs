@@ -64,6 +64,20 @@ p, li{
     position: relative;
     top: 0px;
   }
+
+  .footer-con{
+    display: block !important;
+    text-align: center;
+  }
+
+  .footer-con h6 {
+    padding-top: 1rem;
+    margin-bottom: .5rem !important;
+  }
+  .footer-con hr {
+    display:  inherit !important;
+    width: 15rem;
+  }
   
 }
 
@@ -81,13 +95,14 @@ p, li{
 .nav-cluster li:hover{
   background-color: #e9e5f1;
   cursor: pointer;
+  color: black !important;
 }
 .nav-cluster li:active{
   background-color: #d4dbdf;
   cursor: pointer;
 }
 .nav-cluster a {
-  text-decoration: none;
+  text-decoration: none !important;
   color: Black;
 }
 
@@ -210,5 +225,26 @@ p, li{
 
 /* <!--Footer Section-->
 *****************************/
+
+.footer-con{
+  display: flex;
+  justify-content: space-evenly !important;
+  background-color: #f8fbfe;
+  box-shadow: 0 -5px 5px -5px rgba(0,0,0,.15);
+}
+.footer-con ul {
+  margin: 1rem 0px;
+  list-style: none !important;
+  padding-inline-start: 0rem;
+}
+.footer-con ul li{
+  padding: .2rem;
+}
+.footer-con hr{
+  display: none;
+}
+
+
+
 
 /* END OF Footer Section */
