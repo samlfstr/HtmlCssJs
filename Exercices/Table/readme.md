@@ -1,4 +1,4 @@
-# ~~~~~~~~~~~~~~~~~~~~Simple seeding
+# Simple seeding
 
 I got lots of problems with vs code It's clearly not made for some serious coding, it's for beginners or experts but not for lazies.
 
@@ -39,6 +39,3 @@ And when you loop through you got what  you want :
      <td> <?php echo $product['year'] ?> </td>
    </tr>
 <?php endforeach; ?>
-```
-
-```
