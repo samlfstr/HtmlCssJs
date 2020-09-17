@@ -17,7 +17,7 @@ html {
   text-justify: inter-word;
   margin: 0px 10px !important;
 }
-
+/* That is usefull when we are actually doing a printing of course we can have further ameliorations with that */
 @media print{
   .row{
     /* display: block; */
@@ -71,6 +71,37 @@ article {
 article h2{
   text-align : center;
 }
+
+/********* HOVER ************
+*****************************/
+
+@media(hover:hover){
+  article:hover{
+    background-color: rgb(255, 246, 232);
+    cursor: pointer;
+  }
+  article:active{
+    background-color: #d8d8d8;
+  }
+}
+
+/********* POINTER **********
+It has three values : 
+
+coarse : a not precision pointer
+it can be a finger for exemple.
+
+fine : a precision pointer in that
+case it is a mouse.
+
+none : no pointer at all
+*****************************/
+@media(pointer : fine){
+  article:hover{
+    color: green;
+  }
+}
+
 
 
 
