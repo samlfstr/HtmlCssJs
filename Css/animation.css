@@ -1,0 +1,57 @@
+.spin-right{
+     width: 5rem;
+     height: 5rem;
+     padding: 30px;
+     margin-left: auto;
+     margin-right: auto;
+     text-align: center;
+     margin-top: 5rem;
+     background-color: red;
+     animation-name: spin-right;
+     animation-duration: 3s;
+     animation-iteration-count: infinite;
+     animation-timing-function: linear;
+}
+.spin-left{
+     width: 5rem;
+     height: 5rem;
+     padding: 30px;
+     margin-left: auto;
+     margin-right: auto;
+     text-align: center;
+     margin-top: 5rem;
+     background-color: green;
+     animation-name: spin-left;
+     animation-duration: 3s;
+     animation-iteration-count: infinite;
+     animation-timing-function: linear;
+}
+
+/* ANIMATIONS **************
+****************************/
+@keyframes spin-right{
+
+     /** 0 to 360 spin right **/
+     /** 360 to 0 spin left **/
+     from {
+          transform: rotate(0deg);
+     }
+     to {
+          transform: rotate(360deg);
+     }
+
+}
+@keyframes spin-left{
+
+     /** 0 to 360 spin right **/
+     /** 360 to 0 spin left **/
+     from {
+          transform: rotate(360deg);
+     }
+     to {
+          transform: rotate(0deg);
+     }
+
+}
+
+/** END OF ANIMATIONS **/
