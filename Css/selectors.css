@@ -1,0 +1,34 @@
+ 
+/**
+ * Selectors Level 2
+ */
+
+ /*
+ - ul > li says chose the direct descendant of the ul element
+ - and li:nth-of-type() allows me to chose which one
+ */
+
+ .level-2 ul > li:nth-of-type(3){
+      background-color: green;
+ }
+
+ /* 
+ - nth-of-type allows me to chose the first list element
+ - +li tells says : chose li that comes after the first element
+ */
+
+ .level-2 ul li:nth-of-type(1) + li{
+      background-color: red;
+ }
+
+ 
+/**
+ * Selectors Level 3
+ */
+
+
+ 
+/**
+ * Selectors Level 4
+ */
+ 
