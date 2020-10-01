@@ -1,46 +1,63 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-     <meta charset="UTF-8">
-     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-     <link rel="stylesheet" href="../Css/selectors.css">
-     <title>Selectors</title>
-</head>
-<body>
-     <div class="level-2">
-          <h3> (+) and (>) selectors </h3>
-          <ul>
-               <li>One</li>
-               <li>Two</li>
-               <li>Three</li>
-          </ul>
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="../Css/selectors.css" />
+    <title>Selectors</title>
+  </head>
+  <body>
+    <div class="level-2">
+      <h3>(+) and (>) selectors</h3>
 
-          <hr>
+      <ul> <!-- nth-of-type(1) -->
+        <li>One</li>
+        <li>Two</li>
+        <li>Three</li>
+      </ul>
 
-          <h3> (~) selector </h3>
-          <ol>
-               <li>One</li>
-               <p>Not necessarily immediatly after</p>
-               <li>Two</li>
-               <li>Tree</li>
-          </ol>
-          <ol>
-               <li>One</li>
-               <li>Two</li>
-               <li>Tree</li>
-          </ol>
-          <ol>
-               <li>One</li>
-               <li>Two</li>
-               <li>Tree</li>
-          </ol>
-          <hr>
-     </div>
-     <div class="level-3">
+      <hr />
 
-     </div>
-     <div class="level-4">
+      <h3>(~) selector</h3>
+      <ol> <!-- nth-of-type(1) -->
+        <li>One</li>
+        <p>Not necessarily immediatly after</p>
+        <li>Two</li>
+        <li>Tree</li>
+      </ol>
+      <ol> <!-- nth-of-type(2) -->
+        <li>One</li>
+        <li>Two</li>
+        <li>Tree</li>
+      </ol>
+      <ol> <!-- nth-of-type(3) -->
+        <li>One</li>
+        <li>Two</li>
+        <li>Tree</li>
+      </ol>
+      <hr />
+      <h3>p[attr] | p[attr="val"] | p[attr~="val"] attribute selectors </h3>
+      <p lang="en-us">This is attribute selector.</p>
+      <p id="quote">This is attribute selector.</p>
+      <p name="title some other word">This is attribute selector.</p>
 
-     </div>
-</body>
+      <hr />
+
+      <h3>:first-child selector</h3>
+      <ul> <!-- nth-of-type(2) -->
+          <li>Item 1</li>
+          <li>Item 2</li>
+          <li>Item 3
+            <ul>
+              <li>Item 3.1</li>
+              <li>Item 3.2</li>
+              <li>Item 3.3</li>
+            </ul>
+          </li>
+        </ul>
+
+    </div>
+    <div class="level-3"></div>
+    <div class="level-4"></div>
+  </body>
 </html>
