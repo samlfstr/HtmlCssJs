@@ -1,34 +1,53 @@
- 
-/**
+ /**
  * Selectors Level 2
  */
-
+ 
+ .level-2 {
+     margin-right: auto;
+     margin-left: auto;
+     text-align: center;
+ }
+ 
+ .level-2 li,
+ h3,
+ p {
+     list-style-type: none;
+     font-size: 2rem;
+     text-transform: capitalize;
+ }
+ 
+ .level-2 hr {
+     width: 70rem;
+     height: .3rem;
+     background-color: darkgrey;
+ }
  /*
  - ul > li says chose the direct descendant of the ul element
  - and li:nth-of-type() allows me to chose which one
  */
-
- .level-2 ul > li:nth-of-type(3){
-      background-color: green;
+ 
+ .level-2 ul>li:nth-of-type(3) {
+     background-color: green;
  }
-
  /* 
  - nth-of-type allows me to chose the first list element
  - +li tells says : chose li that comes after the first element
  */
-
- .level-2 ul li:nth-of-type(1) + li{
-      background-color: red;
- }
-
  
-/**
+ .level-2 ul li:nth-of-type(1)+li {
+     background-color: red;
+ }
+ /*
+  - (~) That sign means all the x that comes after and not necessarily
+  - child of a same object and not necessarily immediatly after
+ */
+ 
+ .level-2 ol li:nth-of-type(1)~li {
+     color: rgb(255, 127, 144);
+ }
+ /**
  * Selectors Level 3
  */
-
-
- 
-/**
+ /**
  * Selectors Level 4
  */
- 
