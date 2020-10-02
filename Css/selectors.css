@@ -31,6 +31,8 @@ p {
 /*
  - ul > li says chose the direct descendant of the ul element
  - and li:nth-of-type() allows me to chose which one
+ - I can specificly say using li:nth-of-type() or I can chose
+ - all the li at the level of direct descendant
  */
 
 .level-2 ul > li:nth-of-type(3) {
@@ -38,7 +40,7 @@ p {
 }
 /* 
  - nth-of-type allows me to chose the first list element
- - +li tells says : chose li that comes after the first element
+ - +li tells says : chose li that comes after the li:nth-of-type(1) 
  */
 
 .level-2 ul li:nth-of-type(1) + li {
@@ -53,11 +55,30 @@ p {
   color: rgb(255, 127, 144);
 }
 
+/* 
+- Beginning attribute selector 
+*/
+[title^="fi"]{
+  background-color: inherit !important;
+  color: red;
+}
+[title^="sec"]{
+  background-color: inherit !important;
+  color:blue;
+}
+
+
+/* 
+- Ending attribute selector 
+*/
+
 /**
   - Attribute selector
   - First select the attribute name
   - Second select the attribute with value
   - Third look for any value
+
+  - For exemple p[lang] I could've chosen any attribut p[name],p[title]...
  */
 p[lang] {
   color: green;

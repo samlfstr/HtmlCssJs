@@ -36,7 +36,7 @@
         <li>Tree</li>
       </ol>
       <hr />
-      <h3>p[attr] | p[attr="val"] | p[attr~="val"] attribute selectors </h3>
+      <h3>p[attr] | p[attr="val"] | p[attr~="val"] attribute selectors</h3>
       <p lang="en-us">This is attribute selector.</p>
       <p id="quote">This is attribute selector.</p>
       <p name="title some other word">This is attribute selector.</p>
@@ -45,17 +45,25 @@
 
       <h3>:first-child selector</h3>
       <ul> <!-- nth-of-type(2) -->
-          <li>Item 1</li>
-          <li>Item 2</li>
-          <li>Item 3
-            <ul>
-              <li>Item 3.1</li>
-              <li>Item 3.2</li>
-              <li>Item 3.3</li>
-            </ul>
-          </li>
-        </ul>
+        <li>Item 1</li>
+        <li>Item 2</li>
+        <li>
+          Item 3
+          <ul>
+            <li>Item 3.1</li>
+            <li>Item 3.2</li>
+            <li>Item 3.3</li>
+          </ul>
+        </li>
+      </ul>
 
+      <hr />
+
+      <ul> <!-- nth-of-type(3) -->
+        <li title="first">One</li>
+        <li title="second">One</li>
+        <li title="first-degil">One</li>
+      </ul>
     </div>
     <div class="level-3"></div>
     <div class="level-4"></div>
