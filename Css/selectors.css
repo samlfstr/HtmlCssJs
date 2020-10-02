@@ -1,4 +1,4 @@
-/**
+/*****
  * Selectors Level 2
  */
 
@@ -28,7 +28,7 @@ p {
   height: 0.3rem;
   background-color: darkgrey;
 }
-/*
+/*****
  - ul > li says chose the direct descendant of the ul element
  - and li:nth-of-type() allows me to chose which one
  - I can specificly say using li:nth-of-type() or I can chose
@@ -38,7 +38,7 @@ p {
 .level-2 ul > li:nth-of-type(3) {
   background-color: green;
 }
-/* 
+/*****
  - nth-of-type allows me to chose the first list element
  - +li tells says : chose li that comes after the li:nth-of-type(1) 
  */
@@ -46,7 +46,7 @@ p {
 .level-2 ul li:nth-of-type(1) + li {
   background-color: red;
 }
-/*
+/*****
   - (~) That sign means all the x that comes after and not necessarily
   - child of a same object and not necessarily immediatly after
  */
@@ -55,7 +55,7 @@ p {
   color: rgb(255, 127, 144);
 }
 
-/* 
+/*****
 - Beginning attribute selector 
 */
 [title^="fi"]{
@@ -67,12 +67,45 @@ p {
   color:blue;
 }
 
+/*****
+- Practical usage of general attribute selector
+*/
 
-/* 
+
+[href*="http"]{
+  font-size: 1.5rem;
+}
+
+
+[href*="http"]::after{
+  content : "(Link)";
+  font-size: 1.5rem;
+}
+
+
+
+
+
+/*****
 - Ending attribute selector 
 */
 
-/**
+[title$="if"]{
+  margin-right: auto;
+  margin-left: auto;
+  text-align: center;
+  background-color: inherit !important;
+  writing-mode: vertical-rl;
+  text-orientation: upright;
+}
+[title$="es"]{
+  border: 1rem solid black;
+}
+
+
+
+
+/*****
   - Attribute selector
   - First select the attribute name
   - Second select the attribute with value
@@ -90,7 +123,7 @@ p[name~="word"] {
   color: orchid;
 }
 
-/*
+/*****
   - (~) Problem with that selector was to not being able to say 
   - to the browser select the element that comes immediatly after.
   - this is the reason why we are using the :fist-child selector
@@ -104,9 +137,9 @@ p[name~="word"] {
   background-color: red !important;
 }
 
-/**
+/*****
  * Selectors Level 3
  */
-/**
+/*****
  * Selectors Level 4
  */
