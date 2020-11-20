@@ -1,4 +1,11 @@
 /*****
+ * Fonts
+ */
+
+@import url('https://fonts.googleapis.com/css2?family=Faster+One&display=swap');
+
+
+/*****
  * Selectors Level 2
  */
 
@@ -52,7 +59,7 @@ p {
  */
 
 .level-2 ol li:nth-of-type(1) ~ li {
-  color: rgb(255, 127, 144);
+  color: rgb(255, 124, 124);
 }
 
 /*****
@@ -73,18 +80,15 @@ p {
 
 
 [href*="http"]{
-  font-size: 1.5rem;
+  font-size: var(--link-size);
+  font-family: Faster One;
 }
 
 
 [href*="http"]::after{
   content : "(Link)";
-  font-size: 1.5rem;
+  font-size: var(--content-size);
 }
-
-
-
-
 
 /*****
 - Ending attribute selector 
@@ -95,15 +99,12 @@ p {
   margin-left: auto;
   text-align: center;
   background-color: inherit !important;
-  writing-mode: vertical-rl;
+  writing-mode: vertical-lr;
   text-orientation: upright;
 }
 [title$="es"]{
   border: 1rem solid black;
 }
-
-
-
 
 /*****
   - Attribute selector
@@ -134,12 +135,24 @@ p[name~="word"] {
  */
 
 .level-2 ul:nth-of-type(2) li:first-child {
-  background-color: red !important;
+  background-color: rgb(0, 145, 84) !important;
 }
 
 /*****
  * Selectors Level 3
  */
+
+ /*****
+ * :root allows you to create constants
+ */
+
+
+:root{
+  --link-size : 1.5rem;
+  --content-size: 1.3rem;
+}
+
+
 /*****
  * Selectors Level 4
  */
