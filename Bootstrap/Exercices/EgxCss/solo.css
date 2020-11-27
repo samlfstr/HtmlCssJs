@@ -1,5 +1,5 @@
 .container{
-  text-align: center;
+  text-align: var(--c);
   margin-top: 15px;
 }
 .container #left{
@@ -9,6 +9,12 @@
 .container #right{
   background-color: burlywood;
   padding: 15px;
+}
+
+:root {
+  --c: center;
+  --r: right;
+  --l: left;
 }
 
 
