@@ -65,6 +65,13 @@ console.log('Data Adress - ' + signal.slice(4,8));
 console.log('Data Length - ' + signal.slice(8,12));
 console.log('CRC - ' + signal.slice(12,16));
 
+// template way of concatination
+let phrase = 'This is the day';
+let phrase1 = 'Bitch';
+let phrase2 = 'Tirelessly Ayy';
+
+let full_sentence = `${phrase} ${phrase1} ${phrase2}`;
+console.log(full_sentence);
 
 
 
