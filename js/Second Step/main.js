@@ -45,12 +45,25 @@ console.log(life.toLocaleLowerCase());
 // uppercase
 console.log(life.toUpperCase());
 
-//make first letter upper case
+//make only the first letter upper case
+let coutry = "AmERiCa";
+coutry = coutry.toLowerCase();
+country = coutry.replace(coutry[0],coutry[0].toUpperCase());
+console.log(country);
 
 
+// find the last index of
+let name = "Brandon";
+index_n = name.lastIndexOf('n');
+console.log(name[index_n]);
 
-
-
+// modbus request simulation
+let signal = '0000000010010011';
+console.log('Device ID - ' + signal.slice(0,2));
+console.log('Function Name - ' + signal.slice(2,4));
+console.log('Data Adress - ' + signal.slice(4,8));
+console.log('Data Length - ' + signal.slice(8,12));
+console.log('CRC - ' + signal.slice(12,16));
 
 
 
