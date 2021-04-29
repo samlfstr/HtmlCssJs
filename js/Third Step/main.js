@@ -16,9 +16,32 @@ currency.unshift('CFA');
 console.log(currency)
 
 // using the splice method
-let numbers = ['a','b','c','d','e'];
-numbers.splice(0, 1,'A');
-console.log(numbers);
+let letters = ['a','b','c','d','e'];
+letters.splice(0, 1,'A');
+console.log(letters);
+
+// and then we got slice which creates a copy
+let numbers = ['a','b','c'];
+console.log(numbers.slice(0,3));
+
+// start from the end of the list
+let primes = ['2','3','5'];
+primes.splice(-1,1,'7');
+console.log(primes);
+
+// arrays with keys
+let odds = {
+    'one':1,
+    'three':3,
+    'five':5
+};
+
+console.log(odds);
+
+
+
+
+
 
 
 
