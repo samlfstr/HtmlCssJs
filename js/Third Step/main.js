@@ -38,14 +38,34 @@ let odds = {
 
 console.log(odds);
 
+// for each
+let pairs = [1,2,3,4,5,6,7,8,9];
 
+pairs.forEach(each);
+// that is sufficiant to call the function
+function each(item, index) {
+    console.log(pairs[index]);
+}
 
+pairs.forEach(mulByTen);
+// multiply by 10
+function mulByTen(item, index){
+    console.log(pairs[index] * 10);
+}
 
+pairs.forEach(special_f);
+// multiply by ten then minus 1
+function special_f (index){
+    console.log((pairs[index] * 10) - 1);
+}
 
+pairs.forEach(saveInside);
+// save the result inside an array
+function saveInside(item, index){
+    pairs[index] = item * 31;
+}
 
-
-
-
+console.log(pairs);
 
 
 
