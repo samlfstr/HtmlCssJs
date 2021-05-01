@@ -1,0 +1,148 @@
+* {
+
+  margin: 0em;
+  padding: 0em;
+  box-sizin: border-box;
+
+}
+
+#app{
+
+  font-family: 'Poiret One', cursive;
+  min-height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.clock{
+  /*
+  Its position is relative to the #app container
+  meaning that it can move from it's relative position
+  */
+  position: relative;
+  background: #ececf6;
+  width: 15em;
+  height: 15em;
+  border-radius: 50%;
+
+  /*box-shadow: rgb(204, 219, 232) 3px 3px 6px 0px inset,
+                rgba(255, 255, 255, 0.5) -3px -3px 6px 1px inset;*/
+
+  /*box-shadow: rgba(50, 50, 93, 0.25) 0px 30px 60px -12px inset,
+                rgba(0, 0, 0, 0.3) 0px 18px 36px -18px inset;*/
+
+  box-shadow: rgba(50, 50, 93, 0.25) 0px 50px 100px -20px,
+              rgba(0, 0, 0, 0.3) 0px 30px 60px -30px,
+              rgba(10, 37, 64, 0.35) 0px -2px 6px 0px inset;
+}
+
+.date{
+  position: absolute;
+  width: 125px;
+  height: 24px;
+  border-radius: 13px;
+  background-color: rgba(174, 174, 183, 0.17);
+  text-align: center;
+  color: #171717;
+  font-weight: bold;
+  line-height: normal;
+  bottom: 3.5em;
+  left: 25%;
+  padding-top: 8px;
+  /*transform: translate(-50%,-50%);*/
+  box-shadow: rgba(212, 212, 212, 0.25) 0px 30px 60px -12px inset, rgba(102, 102, 102, 0.3) 0px 18px 36px -18px inset;
+}
+
+.dot{
+  position: absolute;
+  width: .7em;
+  height: .7em;
+  border-radius: 50%;
+  background-color: #969696;
+  box-shadow: rgba(0, 0, 0, 0.56) 0px 22px 70px 4px;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  z-index: 10;
+}
+
+
+
+.hands>div{
+  position: absolute;
+  left: 50%;
+  border-top-left-radius: 50%;
+  border-top-right-radius: 50%;
+
+}
+
+.hour-hand{
+  z-index: 9;
+  width: 0.3em;
+  height: 3.8em;
+  background: #0b2e13;
+  top: 3.8em;
+  transform-origin: 50% 3.5em;
+}
+
+.minute-hand{
+  z-index: 8;
+  width: .2em;
+  height: 6em;
+  background: #6a6a6a;
+  top: 1.4em;
+  margin-left: -0.2em;
+  transform-origin: 50% 6.1em;
+}
+
+.second-hand{
+  z-index: 7;
+  width: .1em;
+  height: 6.7em;
+  background: #8f8f8f;
+  top: .8em;
+  margin-left: -0.005em;
+  transform-origin: 50% 6.7em;
+}
+
+.hours>span{
+  display: inline-block;
+  position: absolute;
+  font-size: 1.5em;
+  font-weight: 700;
+  z-index: 6;
+}
+
+.hours3{
+  top: 81%;
+  left: 47%;
+}
+.hours6{
+  top: 40%;
+  left: 83%;
+}
+.hours9{
+  top: 40%;
+  left: 10%;
+}
+.hours12{
+  left: 46%;
+  top: 10%;
+}
+
+.dialines{
+  position: absolute;
+  z-index: 5;
+  width: 2.1px;
+  height: 0.7em;
+  background: #0b2e13;
+  left: 49.5%;
+  transform-origin: 50% 118px;
+  top: .1em;
+}
+
+.dialines:nth-of-type(5n){
+  width: .3em;
+  height: 1em;
+}
