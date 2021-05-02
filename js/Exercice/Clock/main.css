@@ -2,7 +2,7 @@
 
   margin: 0em;
   padding: 0em;
-  box-sizin: border-box;
+  box-sizing: border-box;
 
 }
 
@@ -146,3 +146,4 @@
   width: .3em;
   height: 1em;
 }
+

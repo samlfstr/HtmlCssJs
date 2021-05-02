@@ -1,0 +1,71 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    /*padding and margin changes according to the content*/
+    box-sizing: content-box;
+    /*if it was border-box the element could not exeed the borders of it's parent*/
+    /*box-sizin: border-box;*/
+}
+
+
+#container{
+    /*starting code*/
+    display: flex;
+    /*use 100% of the viewport*/
+    min-height: 100vh;
+    /*to aligne items vertically*/
+    align-items: center;
+    /*space between and around items*/
+    justify-content: center;
+}
+
+.triangles{
+    position: relative;
+    border-left: 15em solid transparent;
+    border-right: 15em solid transparent;
+    border-bottom: 20em solid #d0d0d0;
+}
+
+@keyframes rotation {
+    from {
+        transform: scale(.1);
+    }
+    to {
+        transform: scale(1);
+    }
+}
+
+.triangle1{
+    position: absolute;
+    border-left: 4.8em solid transparent;
+    border-right: 4.8em solid transparent;
+    border-bottom: 6.4em solid var(--t_color);
+    top: 13.6em;
+    left: 5.4em;
+    animation: rotation 1s infinite linear;
+    animation-direction: alternate;
+}
+.triangle2{
+    position: absolute;
+    border-left: 4.8em solid transparent;
+    border-right: 4.8em solid transparent;
+    border-bottom: 6.4em solid var(--t_color);
+    top: 13.6em;
+    right: 5.4em;
+    animation: rotation 1s infinite linear;
+    animation-direction: alternate;
+}
+.triangle3{
+    position: absolute;
+    border-left: 4.8em solid transparent;
+    border-right: 4.8em solid transparent;
+    border-bottom: 6.4em solid var(--t_color);
+    left: -4.8em;
+    animation: rotation 1s infinite linear;
+    animation-direction: alternate;
+}
+
+:root{
+    --t_color: #eeeeee;
+}
+

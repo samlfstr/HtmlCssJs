@@ -1,0 +1,64 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+
+#container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+}
+
+.squares{
+    position: relative;
+    background-color: #ececf6;
+    width: 15em;
+    height: 15em;
+}
+
+#square1{
+    position: absolute;
+    width: var(--width);
+    height: var(--height);
+    background-color: var(--s_color);
+}
+#square2{
+    position: absolute;
+    width: var(--width);
+    height: var(--height);
+    background-color: var(--s_color);
+    right: 0%;
+}
+#square3{
+    position: absolute;
+    width: var(--width);
+    height: var(--height);
+    background-color: var(--s_color);
+    bottom: 0%;
+}
+#square4{
+    position: absolute;
+    width: var(--width);
+    height: var(--height);
+    background-color: var(--s_color);
+    right: 0%;
+    bottom: 0%;
+}
+
+/*Custom properties*/
+:root{
+    --s_color: #e54c4c;
+    --height: 6em;
+    --width: 6em;
+}
+
+
+
+
+
+
+
+
+
