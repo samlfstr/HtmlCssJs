@@ -1,5 +1,8 @@
 # Html Css Js Clock
 
+![Screen Recording 2021-05-02 at 18 07 22](https://user-images.githubusercontent.com/28195113/116817908-60494200-ab71-11eb-8715-c151923c9a36.gif)
+
+
 Use vs emmets to create the basic front end html structure :
 .class_name
 ```
