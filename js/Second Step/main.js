@@ -35,9 +35,9 @@ for (i; i > 0; i--) {
 
 // mixing slice() and indexOf()
 let index = life.indexOf('a');
-// after the 'a' included
+// show/cut after the 'a' included
 console.log(life.slice(index));
-// before the 'a' excluded
+// show/cut before the 'a' excluded
 console.log(life.slice(0,index));
 
 // lowercase
