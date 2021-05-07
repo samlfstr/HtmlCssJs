@@ -1,0 +1,7 @@
+Reduce is a functional programming exemple that uses callback function.
+
+// the last argument is actually the initial value
+let arr = [1,2,3,4,5];
+// here sum is equal to sum + current
+// and current is updated each time
+let result = arr.reduce((sum, current) => sum + current,0);

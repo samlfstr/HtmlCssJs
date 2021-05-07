@@ -1,0 +1,82 @@
+First I think it's better to start with a general understanding.
+What can I do with the knowledge of string methods and what kinds of problems I can solve ?
+Data manipulation is being the basic idea, I can access the data in various ways.
+
+For exemple if I want to find some sub string, there are methods for that in sql to.
+But the reason the data manipulation is so strong in js because it can manipulate the row data on client side and it is litterally everywhere.
+
+**length**
+
+let my_name = 'Samuel';
+print(my_name.length);
+
+**indexOf()**
+
+let car = "Mercedes";
+
+// if the term found return true
+if(car.indexOf('des') === -1){
+    console.log('False');
+}else{
+    console.log('True');
+}
+
+// if the term is found return true
+if(car.indexOf('des') !== -1){
+    console.log('True');
+}else{
+    console.log('False');
+}
+
+
+**[ ]**
+
+// single characters
+let life = 'is a bitch';
+
+console.log(life[0] + life[1] + life[3]);
+
+//with a for loop we can do sth
+for (let i = 0; i <life.length + 1; i++) {
+    console.log(life[life.length-i]);
+}
+
+//But the order will be reversed to fix it the solution I found
+let i = life.length;
+for (i; i > 0; i--) {
+    console.log(life[life.length-i]);
+}
+
+
+
+**slice**
+
+// mixing slice() and indexOf()
+let index = life.indexOf('a');
+
+// after the 'a' included
+console.log(life.slice(index));
+
+// before the 'a' excluded
+console.log(life.slice(0,index));
+
+
+**tolowercase, touppercase**
+
+//make only the first letter upper case
+let coutry = "AmERiCa";
+coutry = coutry.toLowerCase();
+// replace only 0. letter
+country = coutry.replace(coutry[0],coutry[0].toUpperCase());
+console.log(country);
+
+
+**concate with dollar sign**
+
+// template way of concatination
+let phrase = 'This is the day';
+let phrase1 = 'Bitch';
+let phrase2 = 'Tirelessly Ayy';
+
+let full_sentence = `${phrase} ${phrase1} ${phrase2}`;
+console.log(full_sentence);

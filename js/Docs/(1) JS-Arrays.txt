@@ -1,0 +1,93 @@
+There two functions that allows us to add/remove items from the end of the list.
+
+PP (push and pop)
+
+// add/remove array methods
+let currency = ['dollar','euro','lira'];
+
+currency.push('yen');
+console.log(currency);
+
+currency.pop();
+console.log(currency);
+
+There are other two functions that allows us add/remove items from the beginning of the list.
+
+**shift and unshift**
+
+// add/remove array methods
+let currency = ['dollar','euro','lira'];
+
+// add to end
+currency.push('yen');
+console.log(currency);
+// remove from the end
+currency.pop();
+console.log(currency);
+
+// add to the beginning
+currency.shift();
+console.log(currency); 
+// remove from the beginning
+currency.unshift('CFA');
+console.log(currency);
+
+
+to delete an element use splice
+first parameter is the starting point in that case 0
+and then the second parameter is deleting number
+and the third and optional parameter is for replacing with another letter
+
+let letters = ['a','b','c','d','e'];
+letters.splice(0,1,'A');
+
+console.log(letters);
+
+
+
+
+splice with negative values
+les valuers negatives permet de changer les valuers commançant de la fin
+
+// start from the end of the list
+let primes = ['2','3','5'];
+primes.splice(-1,1,'7');
+console.log(primes);
+
+
+**arrays with keys**
+
+// arrays with keys
+let odds = {
+    'one':1,
+    'three':3,
+    'five':5
+};
+
+console.log(odds);
+
+
+**array sorting**
+
+arr = [1,9,6,2,5,4];
+
+// simple function a > b 1 then follow the natural flow
+function compare(){
+    if(a > b) return 1;
+    if(a === b) return 0;
+    if(a < b) return -1;
+};
+// pass the function in sort() function
+document.write(arr.sort(compare));
+
+
+
+
+
+
+
+
+
+
+
+

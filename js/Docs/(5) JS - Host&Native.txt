@@ -1,0 +1,55 @@
+If you are writing js that runs on the browser that means you are writing js for
+front end and client side allows user to interact with web pages. 
+Js executed and interpreted by the browsers js engine using DOM (Document Object Model)
+
+DOM allows you to manipulate HTML and or XML files. So any line can be added, changed,
+deleted. "Document Object Model is a set of interfaces and objects designed for 
+managing HTML and XML documents."
+
+Server side js means, js that executed on the server side. It is used to crete
+API's, databases and more.
+
+Js Host objects are provided only for certain working environnement.
+  - Window,
+  - Document,
+  - History...  
+Js Native objects or built-in objects on the ohter are environnement independent.
+  - String,
+  - Array,
+  - Math,
+
+Some of the node js host objects :
+  - http,
+  - https,
+  - fs (file system),
+  - url,
+  - os
+
+Node js allows you to create multiplayer games, chat apps, and more.
+It uses NPM which is the biggest pachage sharing echosistem in the world.
+
+To use node you are using a frame work and one of the most popular NPM framework is
+express. You can build REST api's with express. Or simple servers that talk to browsers.
+
+Node allows you to create native console applications. These applications work
+through your console. Some of the popular frameworks written using node.js
+  - react,
+  - angular js,
+  - vue js,
+
+And also apps like bloomberg, facebook, instagram or wallmark were build by react.js
+
+There is also electron framework that you can use to build desktop applications using
+js, html and css. For exemple vs code were build with electron framework.
+Github desktop and skype are build with electron too.
+
+React is developped by facebook and it is one of the most popular js libraries.
+And with react native you can make mobile app developpement.
+
+
+
+
+
+
+
+

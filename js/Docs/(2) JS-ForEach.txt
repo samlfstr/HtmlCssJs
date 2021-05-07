@@ -1,0 +1,93 @@
+First you define a funciton who gets 3 parameters.
+Then I am simply calling the function : 
+
+// for each
+let pairs = [1,2,3,4,5,6,7,8,9];
+
+pairs.forEach(mulbyten);
+
+function mulbyten(item, index) {
+    pairs[index] = item * 10;
+}
+
+console.log(pairs);
+
+
+I can directly pass a function from the for each loop, that is so powerful why ?
+Because using this functionnality I can pass two parameters from the function, first is being item and the other one index. Item represents each indexes referencing item.
+
+// for each
+let pairs = [1,2,3,4,5,6,7,8,9];
+
+pairs.forEach(each);
+// that is sufficiant to call the function
+function each(item, index) {
+    console.log(pairs[index]);
+}
+
+pairs.forEach(mulByTen);
+// multiply by 10
+function mulByTen(item, index){
+    console.log(pairs[index] * 10);
+}
+
+pairs.forEach(special_f);
+// multiply by ten and minus 1
+function special_f (index){
+    console.log((pairs[index] * 10) - 1);
+}
+
+// save the result inside an array
+function saveInside(item, index){
+    pairs[index] = item * 31;
+}
+
+
+Other type of for each loop (var - in)
+
+let numbers ={
+    'one':'1',
+    'two':'2',
+    'three':'3',
+};
+
+
+for (var key in numbers){
+    document.write(key + ' : ' + numbers[key]);
+}
+
+
+Split and for let of
+
+// for let of works with split and string variables
+let names = 'Bilbo, Gandalf, Nazgul';
+
+// when I separate with coma it becomes immediately an array
+let arg = names.split(', ');
+
+for (let name of arg){
+    document.write(name + ', ');
+}
+
+
+Join can be thought as a glue
+
+let arr = ['Bilbo', 'Gandalf', 'Nazgul'];
+
+let str = arr.join(';'); // glue the array into a string using ;
+
+alert( str ); // Bilbo;Gandalf;Nazgul
+
+
+
+
+
+
+
+
+
+
+
+
+
+
