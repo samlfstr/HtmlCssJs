@@ -5,6 +5,24 @@ Data manipulation is being the basic idea, I can access the data in various ways
 For exemple if I want to find some sub string, there are methods for that in sql to.
 But the reason the data manipulation is so strong in js because it can manipulate the row data on client side and it is litterally everywhere.
 
+If you put a backslash caracter into a string it will interprete 
+the caracter as any other caracter.
+
+let programmer = 'I\'m a programmer';
+console.log(programmer);
+
+When you want to write multi-line strings js wont let you and it'll return an error,
+to prevent that happening add back slash at the end of the each line.
+
+let written = " Multi line, \
+    string that has lots of, \
+    other things to learn so better filter only essantials.
+"; 
+
+console.log(written);
+
+
+
 **length**
 
 let my_name = 'Samuel';

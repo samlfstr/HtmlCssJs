@@ -1,0 +1,26 @@
+Syntax is exactly like grammer, and it identifies general rules for writing code.
+It defines the order and the structure.
+Semantics on the other hand is in the realm of meaning, it defines the basic relation
+and makes sure that each line is meaningful. Basic terminology says if a framework
+makes use of a lot of syntax it accomplishes the same task wiht much more code.
+Well on the other hand a clean syntax is readable, reliable and concis.
+
+Using the console becomes very handy. Here are some shortcuts.
+To open the console  : command + option + j
+To go to a new line  : shift + enter
+To clean the console : command + k
+
+Html, Css and Js can be described as Content, Style and Interactivity.
+
+Every browser has a built-in js engine in it.
+
+One of the things you can't do is to connect one file to another and provide
+the code at the same time. Cause when you write the source the body, code between the
+tags is directly ignored.
+
+And the reason we chose to put the <script></script> tags at and of the html document
+just before the closing body tag is to allow the browser to load html content before
+executing any js code.
+
+Spotting and solving errors is a part of programming, and every tool that'll expedite
+the process should be considered as worth attantion.

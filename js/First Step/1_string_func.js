@@ -1,5 +1,3 @@
-/*Data Types*/
-
 // Length
 let my_name='Aaron';
 console.log(my_name.length);

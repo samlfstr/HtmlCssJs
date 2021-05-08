@@ -13,7 +13,7 @@ Js Host objects are provided only for certain working environnement.
   - Window,
   - Document,
   - History...  
-Js Native objects or built-in objects on the ohter are environnement independent.
+Js Native objects or built-in objects on the ohter hand are environnement independent.
   - String,
   - Array,
   - Math,
@@ -46,7 +46,42 @@ Github desktop and skype are build with electron too.
 React is developped by facebook and it is one of the most popular js libraries.
 And with react native you can make mobile app developpement.
 
+And then there is vue js which offers more tools and allows you to developpe your
+entier project with it.
 
+Angular is developped and maintaned by google is complete full fledge (à part entière)
+frame work that helps creating single web pages.
+
+There are also js testing frame works.
+  - Jasmine is the most popular for testing angular applications.
+  - Mocha, extendible.
+  - Enzym is a testing utility for react.
+
+Different types of js developpers
+  - Roles of an architect :
+    -- Developping the strategy and technical solution
+    -- Communicating that with the team
+    -- Making sure that it's successfully executed
+    -- It also has a technical knowledge and knows what's possible and 
+       impossible on a proect.
+    -- They might decide what tools to use.
+
+  - Software developpement manager :
+    -- Keeps the team on the track
+    -- Overseas project through completion
+  
+  - QA (Quality Assurence Testers)
+    -- Check every parts of the software and makes sur that every thing does
+       what it is intended to do.
+    -- They test the project for defects and bugs.
+    -- They are responsible for making sure that every bug is corrected before shipping.
+  
+  - Product manager
+    -- They work with every one on the team
+    -- They decide what products to make for the company
+    -- They lead the team from the conception all the way through it's launch
+    -- Works on customer research
+    -- User experience and so on.
 
 
 
