@@ -1,0 +1,5 @@
+`` template litterals are basically these back quotes they allow you to
+insert dynamic variables directly inside the line
+
+let x = "22/7";
+const pi = `This is pi ${x}`;
