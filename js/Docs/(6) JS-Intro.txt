@@ -2,7 +2,7 @@ Syntax is exactly like grammer, and it identifies general rules for writing code
 It defines the order and the structure.
 Semantics on the other hand is in the realm of meaning, it defines the basic relation
 and makes sure that each line is meaningful. Basic terminology says if a framework
-makes use of a lot of syntax it accomplishes the same task wiht much more code.
+makes use of a lot of syntax it accomplishes the same task with much more code.
 Well on the other hand a clean syntax is readable, reliable and concis.
 
 Using the console becomes very handy. Here are some shortcuts.

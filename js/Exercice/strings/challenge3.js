@@ -15,14 +15,10 @@ setTimeout(function () {
 function guess_game() {
     while (count > 0 && (guess === false)) {
         num_guess = prompt(`Guess : ${count + 1}`);
-        // cast prompt to numberical
+        // cast prompt to numerical
         if (+num_guess === number) {
             count = 0;
             guess = true;
-            document.write('Congragulations, you found the number!');
-            break;
-        } else if (count === 1) {
-            num_guess = prompt(`Last chance : ${count}`);
             document.write('Congragulations, you found the number!');
             break;
         }

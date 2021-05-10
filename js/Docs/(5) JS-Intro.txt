@@ -71,7 +71,7 @@ Different types of js developpers
     -- Overseas project through completion
   
   - QA (Quality Assurence Testers)
-    -- Check every parts of the software and makes sur that every thing does
+    -- Checks every parts of the software and makes sur that every thing does
        what it is intended to do.
     -- They test the project for defects and bugs.
     -- They are responsible for making sure that every bug is corrected before shipping.
