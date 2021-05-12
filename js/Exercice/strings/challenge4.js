@@ -8,6 +8,7 @@
 var correct_answers = 0;
 let i = 0;
 let answer;
+const p = document.querySelector('.ranking');
 let questions = [
     'What is the letter that comes after y ?',
     'What is name of the black president of U.S ?',
@@ -32,14 +33,15 @@ function lp() {
         }
         i++;
     }
+    // because the p has a reference to the ranking html content I can use it
     if (correct_answers === 1 || correct_answers === 2){
-        document.querySelector('.ranking').innerText = `Bronz`;
+        p.innerText = `Bronz`;
     }else if (correct_answers === 3 || correct_answers === 4){
-        document.querySelector('.ranking').innerText = `Silver`;
+        p.innerText = `Silver`;
     }else if (correct_answers === 5){
-        document.querySelector('.ranking').innerText = `Gold`;
+        p.innerText = `Gold`;
     }else{
-        document.querySelector('.ranking').innerText = `Sorry :(`;
+        p.innerText = `Sorry :(`;
     }
 }
 
