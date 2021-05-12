@@ -1,4 +1,4 @@
-First I think it's better to start with a general understanding.
+First of all I think it's better to start with a general understanding.
 What can I do with the knowledge of string methods and what kinds of problems I can solve ?
 Data manipulation is being the basic idea, I can access the data in various ways.
 
@@ -55,7 +55,7 @@ let life = 'is a bitch';
 console.log(life[0] + life[1] + life[3]);
 
 //with a for loop we can do sth
-for (let i = 0; i <life.length + 1; i++) {
+for (let i = 0; i <=life.length; i++) {
     console.log(life[life.length-i]);
 }
 
@@ -79,7 +79,7 @@ console.log(life.slice(index));
 console.log(life.slice(0,index));
 
 
-**tolowercase, touppercase**
+**tolowercase, touppercase**, replace
 
 //make only the first letter upper case
 let coutry = "AmERiCa";
@@ -88,8 +88,7 @@ coutry = coutry.toLowerCase();
 country = coutry.replace(coutry[0],coutry[0].toUpperCase());
 console.log(country);
 
-
-**concate with dollar sign**
+**concate with dollar sign by using template litterals **
 
 // template way of concatination
 let phrase = 'This is the day';
