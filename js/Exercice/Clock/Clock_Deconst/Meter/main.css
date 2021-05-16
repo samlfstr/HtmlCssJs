@@ -1,6 +1,6 @@
 *{
-    margin: 0px;
-    padding: 0px;
+    margin: 0;
+    padding: 0;
     box-sizing: content-box;
 }
 
@@ -20,6 +20,9 @@
     border-bottom: solid;
     border-bottom-right-radius: 2em;
     border-bottom-left-radius: 2em;
+    animation-delay: 1s;
+    animation: visible 1s;
+    animation-iteration-count: 1;
 }
 .directions{
     position: absolute;
@@ -31,10 +34,41 @@
     background-color: #b4bdc2;
     border: solid black 2px;
 }
+
+/*<editor-fold desc="Animation">*/
+
+@keyframes example {
+    from {
+        transform: rotate(0deg);
+        opacity: 1;
+    }
+    to {
+        transform: rotate(180deg);
+        background-color: darkred;
+        opacity: 0;
+    }
+}
+
+@keyframes visible {
+    from {
+        opacity: 0;
+    }
+    to {
+        opacity: 1;
+    }
+}
+
+
+/*</editor-fold>*/
+
+
 .directions>span{
     font-family: 'Graduate', cursive;
     font-weight: 700;
     font-size: xx-small;
+    animation-delay: 3s;
+    animation: visible 5s;
+    animation-iteration-count: 1;
 }
 .east{
     position: absolute;
@@ -62,6 +96,9 @@
     height: .5em;
     width: .1em;
     background-color: black;
+
+    animation: visible 5s;
+    animation-iteration-count: 1;
 }
 
 .v_lines:nth-of-type(5n){
