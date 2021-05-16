@@ -2,13 +2,13 @@
 
 
 for (let i = 0; i < 10; i++) {
-  // document.write(getRandomInt(10) + '<br>');
+  document.write(getRandomInt(10) + '<br>'+ '<br>'+ '<br>');
 }
 
 
 // random integer function with floor
 function getRandomInt(max){
-    return Math.floor(Math.random() * max);
+    return Math.round(Math.random() * max);
 }
 
 /*
@@ -19,4 +19,7 @@ function getRandomInt(max){
 document.write(Math.floor(3.9) + '<br>');
 
 // et l'opposé de math floor est math ceil
-document.write(Math.ceil(3.1));
+document.write(Math.ceil(3.1)+ '<br>');
+
+// et round divise depuis le milieux
+document.write(Math.round(3.1)+ '<br>');
