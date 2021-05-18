@@ -14,6 +14,7 @@ let days=[
     'Friday',
     'Saturday'
 ];
+
 let ne_date = new Date();
 let current_time = ne_date.toLocaleTimeString('US');
 let current_date = ne_date.toLocaleDateString('TR');
