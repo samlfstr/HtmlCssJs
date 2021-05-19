@@ -50,7 +50,7 @@ let width_index = width.indexOf('p');
 let width_int = parseInt(width.slice(0,width_index));
 let totalWidth = width_int * totalImages;
 
-document.write(totalWidth);
+document.write(parseInt('.5'));
 
 
 
