@@ -42,4 +42,5 @@ function createCard(planet) {
 }
 
 // html injection (served)
-document.querySelector('body').innerHTML = createCard(neptun);
+// document.querySelector('body > .container').innerHTML = createCard(neptun);
+document.querySelector('.container').insertAdjacentHTML('afterend', createCard(neptun));
