@@ -1,0 +1,14 @@
+glossary or terminology of a certain area is extremely important this is why
+we need to keep track of each section by using exclusively their proper terminologies
+
+on java script functions we see :
+
+function : keyword
+function x : function name
+function x (asd) : function parameter (s) / arguments
+funciton x (asd,...){
+     : function body
+}
+funciton x (asd,...){
+     return asd; : return type
+}

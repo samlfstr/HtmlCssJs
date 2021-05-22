@@ -25,8 +25,12 @@ Array.from(container).forEach(function(items){
 
 
 // and if I want to use keys I can use for-in
-for (item in container){
-    // console.log(item);
+// this is used with js objects
+
+let items = {a:1, b:2, c:3};
+
+for (let item in items) {
+    console.log(`${item} = ${items[item]}`);
 }
 
 
