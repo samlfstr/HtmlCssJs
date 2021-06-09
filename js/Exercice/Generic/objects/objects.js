@@ -28,5 +28,6 @@ for (const question of questions) {
     for (const questionKey in question) {
         document.write(`${questionKey} : `+ question[questionKey] + '<br>');
         document.write('<br>');
+        document.write('<hr>');
     }
 }

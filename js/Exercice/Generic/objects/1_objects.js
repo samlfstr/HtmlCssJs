@@ -34,12 +34,14 @@ for (const pet of pets) {
     }
 }
 
+// you could have used a string var to store all the text elements
 for (const pet of pets) {
     document.querySelector('.container').innerHTML += `
   <div class="pics">
     <h2>Name : ${pet['name']} </h2>
     <h5>Age  : ${pet['age']}  </h5> 
     <img class="_img" src="images/${pet['photo']}" alt="${pet['name']}">
+    <hr>
   </div>
 `;
 
