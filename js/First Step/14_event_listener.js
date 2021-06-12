@@ -1,7 +1,12 @@
 // first we select the element by id
-const listen = document.getElementById('test');
+const x = document.getElementById('test');
 
 // then add the event listener
-listen.addEventListener('click', () => {
-    listen.style.color = 'red';
+x.addEventListener('click', () => {
+    x.style.color = 'grey';
+});
+
+// an element can have multiple event listeners
+x.addEventListener('dblclick', () => {
+    x.style.color = 'white';
 });
