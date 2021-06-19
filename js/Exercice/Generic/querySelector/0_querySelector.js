@@ -5,6 +5,14 @@ second.innerHTML = 'red';
 // grab all the elements / they are stored in an array element
 const container = document.querySelectorAll('.container li.item');
 
+// alternatively I could do sth
+
+const contenaire = document.getElementsByClassName('item');
+for (let i = 0; i < contenaire.length; i++) {
+    contenaire.style.color = 'red';
+}
+
+
 // loop using for funciton
 for (var i = 0; i < container.length; i++) {
     // console.log(container[i]);
