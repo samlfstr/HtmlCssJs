@@ -1,0 +1,24 @@
+.container{
+    display: flex;
+    justify-content: center;
+}
+
+.form_action {
+    border: 1px solid black;
+    padding: 1em;
+    width : 8em;
+    display: flex;
+    justify-content: center;
+}
+
+.container form {
+    padding: 0 !important;
+}
+
+.container form input{
+    width: 10.5em;
+}
+
+.container form div:nth-of-type(n){
+    margin-bottom: 1em;
+}
