@@ -1,0 +1,39 @@
+[
+  {
+    "name" : "can",
+    "in_office": true
+  },
+  {
+    "name" : "taylan",
+    "in_office": false
+  },
+  {
+    "name" : "cengiz",
+    "in_office": true
+  },
+  {
+    "name" : "can",
+    "in_office": true
+  },
+  {
+    "name" : "taylan",
+    "in_office": false
+  },
+  {
+    "name" : "cengiz",
+    "in_office": true
+  },
+  {
+    "name" : "can",
+    "in_office": true
+  },
+  {
+    "name" : "taylan",
+    "in_office": false
+  },
+  {
+    "name" : "cengiz",
+    "in_office": true
+  }
+
+]
