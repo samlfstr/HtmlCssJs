@@ -1,0 +1,11 @@
+.in{
+    border: 7px solid green;
+    width: 7em;
+    margin: .3em;
+}
+
+.out{
+    border: 7px solid orangered;
+    width: 7em;
+    margin: .3em;
+}

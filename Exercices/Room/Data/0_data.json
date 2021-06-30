@@ -1,0 +1,22 @@
+[
+  {
+    "name" : "Ankara",
+    "empty": true
+  },
+  {
+    "name" : "Istanbul",
+    "empty": false
+  },
+  {
+    "name" : "Paris",
+    "empty": true
+  },
+  {
+    "name" : "Berlin",
+    "empty": true
+  },
+  {
+    "name" : "Katar",
+    "empty": true
+  }
+]
