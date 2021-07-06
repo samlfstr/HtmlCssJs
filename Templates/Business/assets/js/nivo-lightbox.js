@@ -139,7 +139,7 @@
             else if(video){
 				return true;
 			}
-			// AJAX
+			// Jquery
 			else if(link.attr('data-lightbox-type') == 'ajax'){
 				return true;
 			}
@@ -230,7 +230,7 @@
                     iframeVideo.load(function(){ content.removeClass('nivo-lightbox-loading'); });
                 }
             }
-            // AJAX
+            // Jquery
             else if(link.attr('data-lightbox-type') == 'ajax'){
 				$.ajax({
 					url: href,
