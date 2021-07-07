@@ -1,0 +1,13 @@
+[
+    {
+        "first_name": "Julien",
+        "last_name": "Moulin",
+        "birthdate": "08/06",
+        "age": "30",
+        "sex": "M",
+        "address": {
+            "city": "Mantes la Jolie",
+            "zip_code": "78200"
+        }
+    }
+]
