@@ -7,7 +7,6 @@ if (nameA === nameB){
 }else{
     document.write('Name A and B are different');
 }
-
 // how to cast when prompt returns a string value
 let age = prompt('How old I am ? ');
 let current_age = 27;
