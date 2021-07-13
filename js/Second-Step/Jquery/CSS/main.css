@@ -5,13 +5,24 @@
 }
 
 #user{
-    background-color: lightseagreen;
+    background-color: #23eee2;
     text-align: center;
     color: whitesmoke;
     text-transform: uppercase;
-    font-size: 3em;
+    font-size: 1.7em;
     border-radius: .5em;
     margin-bottom: .5em;
+    width: 53%;
+}
+#warning{
+    background-color: #bd2130;
+    text-align: center;
+    color: whitesmoke;
+    text-transform: uppercase;
+    font-size: 1.7em;
+    border-radius: .5em;
+    margin-bottom: .5em;
+    width: 53%;
 }
 
 
