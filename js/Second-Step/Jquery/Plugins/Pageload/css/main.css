@@ -5,6 +5,12 @@
   License: MIT http://opensource.org/licenses/MIT
 */
 
+/*Prevent user from scrolling horizontally*/
+html, body {
+  max-width: 100%;
+  overflow-x: hidden;
+}
+
 /*Main*/
 * {
   box-sizing: border-box;
@@ -341,9 +347,9 @@ footer {
 .header{
   background-color: whitesmoke;
   transition: 1s;
+  top: 0;
 }
 .is-sticky .header{
-  transition: 1.5s;
   background-color: white;
   width: 100%;
 }
